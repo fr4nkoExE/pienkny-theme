@@ -1,0 +1,27 @@
+//META{"name":"Kibel","description":"krecacy sie kibel","author":"frnako","version":"ersion: Auto"}*//{}
+@import url(https://rawgit.com/fr4nkoExE/pienkny-theme/new/main);
+
+.app, #pubslayerroot .layer .ui-standard-sidebar-view, body {
+background: url(https://steamuserimages-a.akamaihd.net/ugc/1287415992755290952/CCAF3B95EFB839C6E9F0FBF40968D88BF18E8CD9/?imw=506&imh=286&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) no-repeat center center fixed;
+background-size: cover;
+background-color: rgba(0,0,0,0) !important;
+}
+/*Custom Font*/
+*:not(code) {
+/*font-family: 'NFモトヤバーチ Std W1', 'Open Sans', Whitney, Helvetica, Arial, sans-serif !important;*/
+}
+/****************************************************************/
+/**********************************************************************************************************************************/
+
+
+.bd-backdrop, .backdrop-2ohBEd {
+    background-color: rgba(0,0,0,0.6) !important;
+    animation: bd-backdrop-gloss 250ms ease;
+    -webkit-filter: blur(10px) grayscale(100%) !important;
+}
+@keyframes bd-backdrop-gloss {
+    to{
+        opacity: 1
+        -webkit-filter: blur(200px) grayscale(100%) !important;
+    }
+}
